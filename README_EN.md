@@ -1,5 +1,7 @@
 # InhoDrama · NAS Short-Drama Streaming System
 
+[简体中文](README.md) · **[English](README_EN.md)** · [繁體中文](README_繁体.md)
+
 A short-drama streaming service you host on your own NAS. The interaction model follows the popular "Hongguo" short-drama apps: **swipe up/down on the home feed → tap an episode to play → auto-play the next episode when one finishes, with playback progress synced across devices**. It runs entirely inside your LAN and **does not depend on any external metadata (scraper) service**.
 
 ## Features

@@ -1,5 +1,7 @@
 # InhoDrama · NAS 短剧系统
 
+**[简体中文](README.md)** · [English](README_EN.md) · [繁體中文](README_繁体.md)
+
 部署在自己 NAS 上的短剧流媒体服务，交互对标红果短剧：**首页上下滑动刷剧流 → 点击分集播放 → 播完自动连播，多端播放进度互通**。完全跑在局域网内，**不依赖任何外网刮削接口**。
 
 ## 功能特性
@@ -61,6 +63,24 @@ docker compose up -d --build
 | [Jellyfin 对接](docs/jellyfin.md) | API Key 获取、用户隔离、HLS 转码说明、排错 |
 | [安卓编译](docs/android.md) | Android Studio / 命令行构建、签名、常见问题 |
 | [API 契约](docs/api.md) | 全部接口与字段定义（想自己写客户端看这个） |
+
+## 界面截图
+
+<div align="center">
+
+**安卓 App**
+
+<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-1.png" width="30%" alt="App 截图 1"/>
+<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-2.png" width="30%" alt="App 截图 2"/>
+<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-3.png" width="30%" alt="App 截图 3"/>
+<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-4.png" width="30%" alt="App 截图 4"/>
+
+**Docker 部署**
+
+<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/docker-1.png" width="45%" alt="Docker 运行 1"/>
+<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/docker-2.png" width="45%" alt="Docker 运行 2"/>
+
+</div>
 
 ## 技术选型
 
