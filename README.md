@@ -43,8 +43,8 @@ inho-drama/
 ```bash
 cd inho-drama
 docker compose up -d --build
-# 浏览器打开 http://<NAS_IP>:8080
-# 默认账号 admin / admin123456（务必尽快修改）
+# 浏览器打开 http://<NAS_IP>:8654
+# 默认账号 admin / admin（务必尽快修改）
 ```
 
 然后「我的 → 媒体源管理」添加源（本地目录 `/media` / WebDAV / Jellyfin），自动扫描完成后即可开刷。
@@ -68,6 +68,10 @@ docker compose up -d --build
 - **H5**：Vue 3 + Vite + vue-router(hash) + pinia + hls.js（兜底），构建产物 `embed` 进二进制
 - **安卓**：Kotlin 2.0 + Compose BOM + Navigation + Media3 1.4 + Retrofit + kotlinx-serialization + Coil + DataStore
 - **流媒体**：本地 `http.ServeFile`；WebDAV/Jellyfin 服务端代理并透传 `Range/206`；Jellyfin 网页端不友好容器 302 至 `master.m3u8` 转码
+
+## AI 开发声明
+
+本项目由 **AI 全流程开发**：从需求分析、架构设计、后端（Go）、H5 前端（Vue3）、安卓客户端（Kotlin/Jetpack Compose）、测试、文档，到 **GitHub 开源与版本发布（含推送到 GitHub）**，均由 AI 完成。
 
 ## 声明
 
