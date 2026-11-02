@@ -64,24 +64,6 @@ docker compose up -d --build
 | [安卓编译](docs/android.md) | Android Studio / 命令行构建、签名、常见问题 |
 | [API 契约](docs/api.md) | 全部接口与字段定义（想自己写客户端看这个） |
 
-## 界面截图
-
-<div align="center">
-
-**安卓 App**
-
-<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-1.png" width="30%" alt="App 截图 1"/>
-<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-2.png" width="30%" alt="App 截图 2"/>
-<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-3.png" width="30%" alt="App 截图 3"/>
-<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/app-4.png" width="30%" alt="App 截图 4"/>
-
-**Docker 部署**
-
-<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/docker-1.png" width="45%" alt="Docker 运行 1"/>
-<img src="https://github.com/no1very/inho-drama/releases/download/v1.0.0/docker-2.png" width="45%" alt="Docker 运行 2"/>
-
-</div>
-
 ## 技术选型
 
 - **后端**：Go 1.23 + `modernc.org/sqlite`（纯 Go SQLite，无 CGO，天然跨架构）+ 标准库 `net/http`；WebDAV 客户端 `studio-b12/gowebdav`；密码 bcrypt；token 鉴权
