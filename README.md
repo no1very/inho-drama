@@ -1,4 +1,4 @@
-# InhoDrama · NAS 短剧系统
+# InhoDrama · NAS 硬猴Inho短剧系统
 
 **[简体中文](README.md)** · [English](README_EN.md) · [繁體中文](README_繁体.md)
 
