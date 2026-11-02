@@ -53,6 +53,23 @@ docker compose up -d --build
 
 安卓 App 源码在 `android/`，编译步骤见 [docs/android.md](docs/android.md)。
 
+## 界面截图
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/app-1.png" width="300" alt="App 首页"/></td>
+    <td align="center"><img src="docs/screenshots/app-2.png" width="300" alt="App 界面"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/app-3.png" width="300" alt="App 播放"/></td>
+    <td align="center"><img src="docs/screenshots/app-4.png" width="300" alt="App 详情"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/docker-1.png" width="340" alt="Docker 运行"/></td>
+    <td align="center"><img src="docs/screenshots/docker-2.png" width="340" alt="Docker 日志"/></td>
+  </tr>
+</table>
+
 ## 文档导航
 
 | 文档 | 内容 |
