@@ -1,0 +1,37 @@
+appId: com.nasdrama.inhodrama
+productName: InhoDrama
+directories:
+  output: release
+  buildResources: build
+files:
+  - src/**
+  - package.json
+electronLanguages:
+  - zh-CN
+  - en-US
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+  icon: build/icon.png
+  artifactName: ${productName}-${version}-win-${arch}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: InhoDrama
+mac:
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+  category: public.app-category.entertainment
+  icon: build/icon.png
+  artifactName: ${productName}-${version}-mac-${arch}.${ext}
+dmg:
+  sign: false

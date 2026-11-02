@@ -1,0 +1,18 @@
+{
+  "name": "inho-drama-desktop",
+  "version": "1.0.0",
+  "description": "InhoDrama - NAS short-drama streaming desktop client",
+  "main": "src/main.js",
+  "author": "no1very",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist": "electron-builder -mwl"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
