@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 全面屏（刘海/挖孔）适配：shortEdges 允许内容延伸进挖孔区域，
+         播放页沉浸式时画面可铺满小米 17/18 等中置挖孔全面屏 -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

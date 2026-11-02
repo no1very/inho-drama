@@ -1,0 +1,25 @@
+services:
+  inho-drama:
+    build: .
+    image: inho-drama:latest
+    container_name: inho-drama
+    restart: unless-stopped
+    ports:
+      - "8654:8654"
+    environment:
+      - TZ=Asia/Shanghai
+      # 首次启动自动创建的管理员账号（请在部署后尽快修改密码）
+      - NASDRAMA_ADMIN_USER=admin
+      - NASDRAMA_ADMIN_PASSWORD=admin
+      # 是否允许自助注册（家用局域网建议开启，多端各自建账号可独立记录进度）
+      - NASDRAMA_ALLOW_REGISTER=true
+      # 启动时自动扫描所有已启用的媒体源
+      - NASDRAMA_SCAN_ON_START=true
+      # 登录 token 有效期（天）
+      - NASDRAMA_TOKEN_TTL_DAYS=30
+    volumes:
+      # 数据库、封面缓存等
+      - ./data:/data
+      # 本地媒体库示例：把 NAS 上的短剧目录挂进容器，
+      # 之后在 Web 管理页添加「本地目录」源时填 /media
+      - ./media:/media:ro

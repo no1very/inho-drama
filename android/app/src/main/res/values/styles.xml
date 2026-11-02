@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用主题：深色（与 Compose 内 AppTheme 一致，避免冷启动白屏闪烁）；
+         边到边由 MainActivity 的 enableEdgeToEdge 运行时开启；刘海屏行为在 values-v27 覆盖 -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+</resources>
+

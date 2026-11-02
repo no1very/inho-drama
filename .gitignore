@@ -1,0 +1,18 @@
+# ---- 运行时数据（不入库，部署在 NAS 上生成）----
+data/
+media/
+server/data/
+
+# ---- 前端构建产物 ----
+web/node_modules/
+web/dist/
+
+# ---- 签名密钥与本地配置（敏感，绝不上传）----
+*.keystore
+android/keystore.properties
+android/local.properties
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/

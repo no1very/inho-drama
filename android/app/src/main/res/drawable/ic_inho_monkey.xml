@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Inho 品牌图标（无底色，应用内使用：首页顶栏 / 登录页）
+     墨镜猴 + 播放键，几何来自 inho-monkey 设计稿，品牌变体配色 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- 耳朵 + 耳芯 -->
+    <path
+        android:fillColor="#FFF6EA"
+        android:pathData="M52,248 a56,56 0 1,0 112,0 a56,56 0 1,0 -112,0 Z" />
+    <path
+        android:fillColor="#FFF6EA"
+        android:pathData="M348,248 a56,56 0 1,0 112,0 a56,56 0 1,0 -112,0 Z" />
+    <path
+        android:fillColor="#FF9E6E"
+        android:pathData="M84,252 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0 Z" />
+    <path
+        android:fillColor="#FF9E6E"
+        android:pathData="M372,252 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0 Z" />
+    <!-- 头 + 面部色块 -->
+    <path
+        android:fillColor="#FFF6EA"
+        android:pathData="M100,262 a156,156 0 1,0 312,0 a156,156 0 1,0 -312,0 Z" />
+    <path
+        android:fillColor="#F7D8B0"
+        android:pathData="M186,214 a70,70 0 1,0 140,0 a70,70 0 1,0 -140,0 Z" />
+    <path
+        android:fillColor="#F7D8B0"
+        android:pathData="M152,310 a64,64 0 1,0 128,0 a64,64 0 1,0 -128,0 Z" />
+    <path
+        android:fillColor="#F7D8B0"
+        android:pathData="M232,310 a64,64 0 1,0 128,0 a64,64 0 1,0 -128,0 Z" />
+    <!-- 墨镜：镜腿 -->
+    <group android:rotation="8" android:pivotX="203" android:pivotY="228">
+        <path
+            android:fillColor="#3A2317"
+            android:pathData="M180.5,220 h45 a8.5,8.5 0 0 1 0,17 h-45 a8.5,8.5 0 0 1 0,-17 Z" />
+    </group>
+    <group android:rotation="-8" android:pivotX="309" android:pivotY="228">
+        <path
+            android:fillColor="#3A2317"
+            android:pathData="M286.5,220 h45 a8.5,8.5 0 0 1 0,17 h-45 a8.5,8.5 0 0 1 0,-17 Z" />
+    </group>
+    <!-- 墨镜：双镜片 + 鼻梁 -->
+    <path
+        android:fillColor="#3A2317"
+        android:pathData="M184,246 h44 a20,20 0 0 1 20,20 v20 a20,20 0 0 1 -20,20 h-44 a20,20 0 0 1 -20,-20 v-20 a20,20 0 0 1 20,-20 Z" />
+    <path
+        android:fillColor="#3A2317"
+        android:pathData="M284,246 h44 a20,20 0 0 1 20,20 v20 a20,20 0 0 1 -20,20 h-44 a20,20 0 0 1 -20,-20 v-20 a20,20 0 0 1 20,-20 Z" />
+    <path
+        android:fillColor="#3A2317"
+        android:pathData="M245,256 h22 a7,7 0 0 1 0,14 h-22 a7,7 0 0 1 0,-14 Z" />
+    <!-- 镜面高光 -->
+    <path
+        android:strokeColor="#8CFFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M190,290 L212,262" />
+    <path
+        android:strokeColor="#8CFFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M290,290 L312,262" />
+    <!-- 鼻孔 + 嘴部（内嵌播放键） -->
+    <path
+        android:fillColor="#3A2317"
+        android:pathData="M233,316 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 Z" />
+    <path
+        android:fillColor="#3A2317"
+        android:pathData="M263,316 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 Z" />
+    <path
+        android:fillColor="#3A2317"
+        android:pathData="M234,334 h44 a20,20 0 0 1 20,20 v18 a20,20 0 0 1 -20,20 h-44 a20,20 0 0 1 -20,-20 v-18 a20,20 0 0 1 20,-20 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M248,347 L248,379 L276,363 Z" />
+</vector>

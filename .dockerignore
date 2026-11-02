@@ -1,0 +1,10 @@
+web/node_modules
+web/dist
+server/data
+data
+media
+android
+docs
+.github
+*.md
+.git
